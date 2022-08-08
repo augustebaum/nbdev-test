@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "My first test module",
+    "section": "",
+    "text": "foo\n\n foo ()\n\nThis is a test function.\n\n\n\nbar\n\n bar (a:int, b:str)\n\nRepeat b, a times.\n\n\n\n\nType\nDetails\n\n\n\n\na\nint\n1st argument\n\n\nb\nstr\n2nd argument\n\n\nReturns\nstr\nb repeated a times\n\n\n\n\nbar(3, \"b\")\n\n'bbb'\n\n\n\nimport holoviews as hv\nhv.extension(\"matplotlib\")\nhv.output(fig='svg')\n\nimport numpy as np\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\nx = y = np.arange(-3.0, 3.0, 0.1)\nX, Y = np.meshgrid(x, y)\n\ndef g(x, y, c):\n    return 2*((x-y)**2/(x**2+y**2)) + np.exp(-(np.sqrt(x**2+y**2)-c)**2)\n\nimg = hv.Image(g(X, Y, 2))\n\n#img = hv.Image([(i, i) for i in range(10)])\nfig = hv.render(img)\nfig\n\n\n\n\nIt looks like this is working pretty well!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test of nbdev",
+    "section": "",
+    "text": "I’m going to try out some of the things nbdev has to offer, and this project is where I will be conducting my experiments. Glad to have you along for the ride."
+  },
+  {
+    "objectID": "index.html#docs",
+    "href": "index.html#docs",
+    "title": "Test of nbdev",
+    "section": "Docs",
+    "text": "Docs\nYou can find the auto-generated docs at https://augustebaum.github.io/nbdev-test/."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "Test of nbdev",
+    "section": "Install",
+    "text": "Install\nNo install possible, or planned."
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "Test of nbdev",
+    "section": "How to use",
+    "text": "How to use\nHere are some code examples for you.\n\n1+1\n\n2"
+  }
+]
