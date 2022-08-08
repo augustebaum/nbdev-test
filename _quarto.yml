@@ -12,24 +12,26 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 4
 
 website:
   title: "nbdev_test"
-  description: ""
+  site-url: "https://augustebaum.github.io/nbdev_test/"
+  description: "A test of the nbdev literate programming system"
   execute: 
     enabled: false
   twitter-card: true
   open-graph: true
   reader-mode: true
   repo-branch: main
-  repo-url: https://github.com/augustebaum/nbdev-test/
+  repo-url: "https://github.com/augustebaum/nbdev-test/"
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
     right:
       - icon: github
-        href: https://github.com/augustebaum/nbdev-test/
+        href: "https://github.com/augustebaum/nbdev-test/"
   sidebar:
     style: "floating"
 
